@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="forms.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="submitform.js"></script>
+
+    <form id="form-container">
+      <nav>
+        <div class="links">
+          <a href="http://127.0.0.1:5500/table.html" id="show-table">Table</a
+          ><a href="http://127.0.0.1:5500/forms.html" id="show-table">Form</a>
+        </div>
+      </nav>
+      <h3>Registration Form</h3>
+      <div class="form">
+        <div class="myname">
+          <label for="name">Enter Your Name:</label>
+          <input type="text" name="name" placeholder="Type Your Name" />
+        </div>
+        <div class="myname myemail">
+          <label for="email">Enter Your E-mail:</label>
+          <input type="email" placeholder="Type Your E-mail" name="email" />
+        </div>
+        <div class="myname">
+          <label for="password">Enter Your Password:</label>
+          <input
+            type="password"
+            placeholder="Type Your password"
+            name="password"
+          />
+        </div>
+        <div class="myname">
+          <label for="phonenumber">Enter Your Phone No:</label>
+          <input
+            type="number"
+            placeholder="Type Your Mobile No"
+            name="number"
+          />
+        </div>
+        <div class="myname">
+          <label for="height">Enter Your Height:</label>
+          <input
+            type="number"
+            placeholder="Type Your Height in (cm)"
+            name="height"
+          />
+        </div>
+        <div class="myname">
+          <label for="age">Enter Your Age:</label>
+          <input type="number" placeholder="Type Your Age" name="age" />
+        </div>
+        <div class="myname">
+          <label for="weight">Enter Your Weight:</label>
+          <input type="number" placeholder="Type Your Weight" name="weight" />
+        </div>
+        <div id="gender">
+          <label for="gender">Enter Your Gender:</label>
+          <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="submit-button">
+        <button type="submit" id="save-button">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

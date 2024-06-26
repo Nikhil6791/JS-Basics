@@ -1,0 +1,36 @@
+.table-head {
+  gap: 8px;
+}
+.links {
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 10px;
+  background-color: rgba(58, 57, 57, 0.066);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 14px;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 8px;
+}
+.links a:hover {
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+.table-row {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

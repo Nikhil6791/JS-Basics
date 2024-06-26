@@ -1,0 +1,79 @@
+#form-container {
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+input,
+select {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+.submit-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-top: 10px;
+}
+h3 {
+  margin-left: 10px;
+  justify-content: center;
+  display: flex;
+}
+.myname {
+  background-color: rgba(58, 57, 57, 0.066);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 4px;
+}
+#gender {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(58, 57, 57, 0.066);
+}
+
+.table {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 5px;
+}
+.links {
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 10px;
+  background-color: rgba(58, 57, 57, 0.066);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 14px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.links a:hover {
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+}
