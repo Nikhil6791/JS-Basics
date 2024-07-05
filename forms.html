@@ -7,60 +7,88 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="submitform.js"></script>
-
     <form id="form-container">
       <nav>
         <div class="links">
-          <a href="http://127.0.0.1:5500/table.html" id="show-table">Table</a
-          ><a href="http://127.0.0.1:5500/forms.html" id="show-table">Form</a>
+          <a href="http://127.0.0.1:5500/forms.html" id="submitform">Form</a>
+          <a href="http://127.0.0.1:5500/table.html" id="show-table">Table</a>
         </div>
       </nav>
       <h3>Registration Form</h3>
       <div class="form">
         <div class="myname">
-          <label for="name">Enter Your Name:</label>
-          <input type="text" name="name" placeholder="Type Your Name" />
+          <label for="username">Enter Your Name:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Type Your Name"
+          />
         </div>
+
         <div class="myname myemail">
           <label for="email">Enter Your E-mail:</label>
-          <input type="email" placeholder="Type Your E-mail" name="email" />
+          <input
+            type="email"
+            id="email"
+            placeholder="Type Your E-mail"
+            name="email"
+          />
         </div>
+
         <div class="myname">
           <label for="password">Enter Your Password:</label>
           <input
             type="password"
+            id="password"
             placeholder="Type Your password"
             name="password"
           />
         </div>
+
         <div class="myname">
-          <label for="phonenumber">Enter Your Phone No:</label>
+          <label for="age">Enter Your Age:</label>
           <input
             type="number"
+            id="age"
+            placeholder="Type Your Age"
+            name="age"
+          />
+        </div>
+
+        <div class="myname">
+          <label for="number">Enter Your Phone No:</label>
+          <input
+            type="number"
+            id="number"
             placeholder="Type Your Mobile No"
             name="number"
           />
         </div>
+
         <div class="myname">
           <label for="height">Enter Your Height:</label>
           <input
             type="number"
+            id="height"
             placeholder="Type Your Height in (cm)"
             name="height"
           />
         </div>
-        <div class="myname">
-          <label for="age">Enter Your Age:</label>
-          <input type="number" placeholder="Type Your Age" name="age" />
-        </div>
+
         <div class="myname">
           <label for="weight">Enter Your Weight:</label>
-          <input type="number" placeholder="Type Your Weight" name="weight" />
+          <input
+            type="number"
+            id="weight"
+            placeholder="Type Your Weight"
+            name="weight"
+          />
         </div>
-        <div id="gender">
+
+        <div>
           <label for="gender">Enter Your Gender:</label>
-          <select name="gender">
+          <select id="gender" name="gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="Other">Other</option>
@@ -71,5 +99,7 @@
         <button type="submit" id="save-button">Submit</button>
       </div>
     </form>
+
+    <script src="submitform.js"></script>
   </body>
 </html>
